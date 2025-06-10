@@ -1,11 +1,11 @@
 score = 0;
 cross = true; 
 
-let audio = new Audio('music.mp3');
+let audio = new Audio('./music.mp3');
 audio.preload = "auto";
 audio.volume = 0.5;
 
-let audiogo = new Audio('gameover.mp3');
+let audiogo = new Audio('./gameover.mp3');
 audiogo.preload = "auto";
 
 document.addEventListener('click', () => {
